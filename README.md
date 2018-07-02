@@ -79,11 +79,3 @@ export NODE_CONFIG='{
 ```
 
 The any application (or command line, eg `composer card list`) that is in this shell will use the MongoDB wallets. 
-
-## Known issue
-
-```
-# composer card list
-Error: Can't find end of central directory : is this a zip file ? If it is, see http://stuk.github.io/jszip/documentation/howto/read_zip.html
-Command failed
-```

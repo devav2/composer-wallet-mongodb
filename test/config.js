@@ -18,7 +18,7 @@ const getStore = require('../index.js').getStore
 
 const wrongConfigs = [{
   c: null,
-  text: 'Need configuration'
+  text: 'Need configuration',
 },
 {
   c: {},
@@ -27,12 +27,20 @@ const wrongConfigs = [{
 {
   c: { uri: 'mongodb://localhost:27017/testWallletCollection' },
   text: 'Need a collection name for the wallet'
+},
+{
+  c: {
+    uri: 'mongodb://localhost:27017/testWallletCollection',
+    collectionName: 'testWallet'
+  },
+  text: 'Need a namePrefix in options'
 }
 ]
 
 const correctConfigs = [{
   uri: 'mongodb://localhost:27017/testWallletCollection',
-  collectionName: 'testWallet'
+  collectionName: 'testWallet',
+  'namePrefix':'test'
 }]
 
 /**
