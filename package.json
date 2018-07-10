@@ -1,6 +1,6 @@
 {
   "name": "composer-wallet-mongodb",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "This is Hyperledger Composer Wallet implementation using MongoDB as a store.",
   "main": "index.js",
   "scripts": {
