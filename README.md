@@ -14,7 +14,7 @@ Firstly, this module that provides the support to connect from Composer to the M
 This is loaded using a node.js require statment, and the current preview will look for this in the global modules. 
 
 ```
-npm install -g composer-waller-mongodb
+npm install -g composer-wallet-mongodb
 ```
 
 ### *Step 2*
